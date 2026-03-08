@@ -4,14 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 const scrubOptions = [
-  { 
-    name: "Sereene Stretch", 
-    hasSubOptions: true,
-    subOptions: [
-      { name: "4-Way Stretch", slug: "sereene-flex-4way" },
-      { name: "2-Way Stretch", slug: "sereene-flex-2way" },
-    ]
-  },
+  { name: "2-Way Stretch", slug: "sereene-flex-2way" },
+  { name: "4-Way Stretch", slug: "sereene-flex-4way" },
   { name: "Premium Scrubs", slug: "premium-scrubs" },
   { name: "Executive Scrubs", slug: "executive-scrubs" },
   { name: "Essential Scrubs", slug: "essential-scrubs" },

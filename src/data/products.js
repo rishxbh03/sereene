@@ -125,7 +125,6 @@ export const products = {
       '/sereene%20website%20images%202/scrubs/2%20way%20stretch/2.png',
       '/sereene%20website%20images%202/scrubs/2%20way%20stretch/3.png',
       '/sereene%20website%20images%202/scrubs/2%20way%20stretch/4.png',
-      '/sereene%20website%20images%202/scrubs/2%20way%20stretch/1.png',
     ],
     colors: [
       { name: 'Light Pink', value: '#f28ba2', image: '/sereene%20website%20images%202/scrubs/2%20way%20stretch/1.png' },

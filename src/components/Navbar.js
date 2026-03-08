@@ -161,25 +161,15 @@ export default function Navbar() {
                     </svg>
                   </a>
                   <ul className={`sub-dropdown-menu ${openDropdowns['scrubs'] ? 'mobile-open' : ''}`}>
-                    <li className="dropdown-submenu">
-                      <a href="#sereene-stretch" className={`submenu-toggle ${openDropdowns['stretch'] ? 'open' : ''}`} onClick={(e) => toggleDropdown('stretch', e)}>
-                        Sereene Stretch
-                        <svg className="dropdown-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none">
-                          <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                      </a>
-                      <ul className={`sub-dropdown-menu nested ${openDropdowns['stretch'] ? 'mobile-open' : ''}`}>
-                        <li>
-                          <Link href="/products/sereene-flex-4way" onClick={closeMobileMenu}>
-                            4-Way Stretch
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/products/sereene-flex-2way" onClick={closeMobileMenu}>
-                            2-Way Stretch
-                          </Link>
-                        </li>
-                      </ul>
+                    <li>
+                      <Link href="/products/sereene-flex-2way" onClick={closeMobileMenu}>
+                        2-Way Stretch
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/products/sereene-flex-4way" onClick={closeMobileMenu}>
+                        4-Way Stretch
+                      </Link>
                     </li>
                     <li>
                       <Link href="/products/executive-scrubs" onClick={closeMobileMenu}>
