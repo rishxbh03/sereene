@@ -4,19 +4,19 @@ import { useState, useEffect, useRef } from 'react'
 
 const testimonials = [
   {
-    text: "The quality of Sereene products is exceptional. Their attention to detail and commitment to safety standards has made them our preferred supplier for all medical apparels. The products are reliable, comfortable, and meet all our infection control requirements.",
-    author: "Dr. Sarah Mitchell",
-    position: "Chief Medical Officer, Metropolitan Hospital"
+    text: "We evaluate vendors on compliance, consistency, and performance. Sereene has proven to be a dependable partner, delivering hospital-grade linen products that meet the operational demands of critical care and general wards alike. Their professionalism reflects a clear understanding of institutional healthcare requirements.",
+    author: "Mr. Amit Deshpande",
+    position: "Group Head – Procurement, Sterling Multispeciality Hospitals, Mumbai"
   },
   {
-    text: "Outstanding hygiene products with superior absorbency and comfort. We've been using Sereene's products for over three years now, and the consistency in quality is remarkable. Highly recommended for healthcare facilities.",
-    author: "James Rodriguez",
-    position: "Procurement Manager, HealthCare Plus"
+    text: "In a high-occupancy hospital environment, reliability is everything. Sereene's products offer excellent absorbency and durability, helping us maintain hygiene protocols efficiently. Their team understands hospital requirements and delivers accordingly.",
+    author: "Mr. Rajesh Kumar Sharma",
+    position: "Procurement Head, Shanti Memorial Hospital, Bengaluru"
   },
   {
-    text: "Sereene has transformed our supply chain with their reliable delivery and premium quality products. Their customer service is exceptional, and they truly understand the needs of modern healthcare facilities.",
-    author: "Dr. Priya Patel",
-    position: "Director of Operations, City General Hospital"
+    text: "Sereene's hygiene solutions align seamlessly with our clinical standards and patient-care protocols. The absorbency performance, material quality, and consistency across batches have met our expectations in high-dependency and long-stay units. Their reliability supports both patient dignity and operational efficiency.",
+    author: "Dr. Rohan Malhotra",
+    position: "Chief Operating Officer, Apex Care Hospitals, Gurgaon"
   }
 ]
 
